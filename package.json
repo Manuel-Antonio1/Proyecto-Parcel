@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-parcel",
+  "version": "1.0.0",
+  "description": "Proyecto de práctica que utiliza Parcel como bundler y consume la Fake API de Plazi para disimular el consumo de datos.",
+  "keywords": [
+    "Parcel",
+    "API"
+  ],
+  "homepage": "https://github.com/Manuel-Antonio1/Proyecto-Parcel#readme",
+  "bugs": {
+    "url": "https://github.com/Manuel-Antonio1/Proyecto-Parcel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Antonio1/Proyecto-Parcel.git"
+  },
+  "license": "ISC",
+  "author": "Manuel Antonio Vargas Perez <manuel.vp.official@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
