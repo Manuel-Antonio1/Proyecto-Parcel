@@ -1,24 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    color:#3c484e;
-    font-family: 'Open Sans', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  color: #3c484e;
+  font-family: "Open Sans", sans-serif;
 }
 
-.Main{
-    padding: 10px;
-    grid-template-columns: minmax(auto,780px);
-    display: grid;
-    justify-content: center;
+.Main {
+  padding: 10px;
+  grid-template-columns: minmax(auto, 768px);
+  display: grid;
+  justify-content: center;
 }
 
-.Intems{
-    grid-template-columns:repeat(2,1fr);
-    grid-gap: 1.5rem;
-    grid-row-gap:1.5em;
-    display: grid;
+.Items {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  grid-row-gap: 1.5em;
+  display: grid;
 }
 
 .Card {
@@ -31,10 +31,11 @@ body{
   animation-duration: 4s;
   animation-name: fade;
 }
-.Card img{
-    width: 100%;
-    height: auto;
-    border-radius: 5px 5px 0 0;
+
+.Card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
 }
 
 .Card h2 {
@@ -45,8 +46,6 @@ body{
   justify-content: space-between;
 }
 
-
-
 @keyframes fade {
   from {
     opacity: 0;
@@ -54,4 +53,27 @@ body{
   to {
     opacity: 1;
   }
+}
+
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #ffffff;
+  box-shadow: 0 3px 8px rgba(39, 44, 49, 0.03); /* Misma sombra de tus tarjetas */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: #3c484e; 
+}
+
+.NavLinks a {
+  margin-left: 20px; 
+}
+
+.NavLinks a:hover {
+  color: #000000; 
 }

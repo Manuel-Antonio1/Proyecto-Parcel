@@ -23,6 +23,7 @@
     "build": "parcel build src/index.html --public-url ./"
   },
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "posthtml-include": "^2.0.1"
   }
 }
