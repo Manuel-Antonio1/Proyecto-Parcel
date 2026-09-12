@@ -20,9 +20,11 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel  serve --port 8080 src/index.html src/categorias.html",
-    "build": "parcel build src/index.html src/categorias.html --public-url ./"
+    "build": "parcel build src/index.html src/categorias.html --public-url ./",
+    "deploy":"gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4",
     "posthtml-include": "^2.0.1"
   }
