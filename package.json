@@ -19,8 +19,8 @@
   "type": "commonjs",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel  serve --port 8080 src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "start": "parcel  serve --port 8080 src/index.html src/categorias.html",
+    "build": "parcel build src/index.html src/categorias.html --public-url ./"
   },
   "devDependencies": {
     "parcel": "^2.16.4",
